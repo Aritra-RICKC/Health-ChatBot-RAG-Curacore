@@ -1,0 +1,12 @@
+#TO Handle Files over 100mb size 
+git lfs install
+git lfs track "vectorstore/db_faiss/*.faiss" "vectorstore/db_faiss/*.pkl"
+git add .gitattributes
+git commit -m "Add Git LFS tracking for large files"
+
+
+#Update
+git commit -m "Update README.md with project details"
+git add README.md vectorstore/db_faiss/index.faiss vectorstore/db_faiss/index.pkl
+git commit -m "Update README.md and track large files with LFS"
+git push -u origin main
