@@ -1,4 +1,4 @@
-# Healthbot - Medical Chatbot with RAG
+# Curacore - Medical Chatbot with RAG
 
 A conversational AI assistant for medical information retrieval using Retrieval-Augmented Generation (RAG) with FAISS vector database.
 
